@@ -5,7 +5,7 @@
 const memories = [
   {
     age: 1,
-    title: "Chapter 1",
+    title: "THE BEGINING",
     preview: "A tiny piece of your story",
     text: "Replace this with a personal note, a funny detail, or something you love about her.",
     secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
