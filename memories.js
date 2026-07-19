@@ -259,8 +259,8 @@ const memories = [
     age: 29,
     title: "Chapter 29",
     preview: "Looks like red is your Favourtie color!",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    text: "I think i know now, everytime you wear red i have always made you walk countless kilometres. The only redflag i will never stop at!",
+    secret: "Red suits you! and also that was foreshadowing for you next move, since you are going to be a Canadian!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-29.jpg" // or "assets/videos/age-29.mp4"
   },
