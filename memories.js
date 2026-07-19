@@ -24,9 +24,9 @@ const memories = [
   {
     age: 3,
     title: "Chapter 3",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "No more cups of milk only TEA",
+    text: "Okay this is one of my other favourite pictures, its so amazing the playfulnes, Your mom fed up of you playing around! Just drink re mouni!",
+    secret: "It paid off, look at you now standing strong!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-03.jpg" // or "assets/videos/age-03.mp4"
   },
@@ -87,9 +87,9 @@ const memories = [
   {
     age: 10,
     title: "Chapter 10",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "Chiranjeevi did it better",
+    text: "Okay you take about my weird shirts lets talk about that now.",
+    secret: "# Moucheal Jackson",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-10.jpg" // or "assets/videos/age-10.mp4"
   },
@@ -204,9 +204,9 @@ const memories = [
   {
     age: 23,
     title: "Chapter 23",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "This looks straight of a movie",
+    text: "Lets see how many memories this brings back, awesome if you can remember what both of you were talking about",
+    secret: "Im sure it was about Cashew!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-23.jpg" // or "assets/videos/age-23.mp4"
   },
@@ -231,9 +231,9 @@ const memories = [
   {
     age: 26,
     title: "Chapter 26",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "Okay this feels like home ",
+    text: "MMM i wonder what joke you cracked here but Aswini seems to have a a good laugh",
+    secret: "Theres no secret here but i think they love you way more than you think!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-26.jpg" // or "assets/videos/age-26.mp4"
   },
