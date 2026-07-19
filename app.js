@@ -102,12 +102,37 @@ document.querySelector("#revealBtn").addEventListener("click", () => {
   );
 });
 
+const LETTER_PASSWORD = "mouni30"; // <-- set your own password here (case-sensitive)
+
 const letter = document.querySelector("#letterModal");
-document.querySelector("#openLetter").addEventListener("click", () => letter.showModal());
+const letterGate = document.querySelector("#letterGate");
+const passwordInput = document.querySelector("#letterPassword");
+const passwordError = document.querySelector("#passwordError");
+
+document.querySelector("#openLetter").addEventListener("click", () => {
+  passwordInput.value = "";
+  passwordError.textContent = "";
+  letterGate.showModal();
+  setTimeout(() => passwordInput.focus(), 150);
+});
+
+document.querySelector("#closeGate").addEventListener("click", () => letterGate.close());
 document.querySelector("#closeLetter").addEventListener("click", () => letter.close());
 
-document.querySelector("#startJourney").addEventListener("click", () => {
-  document.querySelector("#timeline").scrollIntoView({ behavior: "smooth" });
+function tryUnlock() {
+  if (passwordInput.value.trim().toLowerCase() === LETTER_PASSWORD.toLowerCase()) {
+    letterGate.close();
+    letter.showModal();
+  } else {
+    passwordError.textContent = "That's not quite it — try again ♡";
+    letterGate.classList.add("shake");
+    setTimeout(() => letterGate.classList.remove("shake"), 400);
+  }
+}
+
+document.querySelector("#unlockLetter").addEventListener("click", tryUnlock);
+passwordInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") tryUnlock();
 });
 
 gsap.from(".hero > *", { y: 30, opacity: 0, stagger: 0.14, duration: 1, ease: "power3.out" });

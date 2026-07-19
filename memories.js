@@ -69,18 +69,18 @@ const memories = [
   {
     age: 8,
     title: "Chapter 8",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "Well well well, this pic is so iconic that you recreated it 15 years later",
+    text: "Amazing how you two are sooo similar, i mean the same pose, the same smile and the same hair style! I think this is the best picture of you and i will never forget this",
+    secret: "Since its on your fridge it deserved to be here!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-08.jpg" // or "assets/videos/age-08.mp4"
   },
   {
     age: 9,
     title: "Chapter 9",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "Get Ready to be blessed",
+    text: "Behold Mounica Devi",
+    secret: "I am blessed to have you because i am getting my biryani!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-09.jpg" // or "assets/videos/age-09.mp4"
   },

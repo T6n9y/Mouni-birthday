@@ -211,3 +211,50 @@ em { color: var(--gold); }
 .music-btn.playing {
   color: var(--gold);
 }
+
+.gate-modal {
+  text-align: center;
+}
+
+.password-input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin: 1rem 0 0.75rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font: inherit;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.password-input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.password-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: normal;
+}
+
+.password-error {
+  color: #ff8080 !important;
+  font-size: 0.82rem;
+  min-height: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.gate-modal.shake {
+  animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-6px); }
+  80% { transform: translateX(6px); }
+}
