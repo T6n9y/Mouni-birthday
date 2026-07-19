@@ -42,9 +42,9 @@ const memories = [
   {
     age: 5,
     title: "Chapter 5",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    preview: "Looks like a celebration",
+    text: "Thanks to Bujjama, this is her favorite picture, 'Naa Cutie' - Bujjama ",
+    secret: "Yeah i dont think i will stop calling her Bujjama",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-05.jpg" // or "assets/videos/age-05.mp4"
   },
@@ -60,8 +60,8 @@ const memories = [
   {
     age: 7,
     title: "Chapter 7",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
+    preview: "RUNNNN",
+    text: "POV - You are trying to take her candid picture annd she is acting normal",
     secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-07.jpg" // or "assets/videos/age-07.mp4"

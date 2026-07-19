@@ -7,6 +7,34 @@ const ageLabel = document.querySelector("#memoryAge");
 const title = document.querySelector("#memoryTitle");
 const text = document.querySelector("#memoryText");
 const secretText = document.querySelector("#secretText");
+const bgMusic = document.querySelector("#bgMusic");
+const musicToggle = document.querySelector("#musicToggle");
+let musicStarted = false;
+function startMusic() {
+  if (musicStarted) return;
+  bgMusic.volume = 0.5;
+  bgMusic.play().then(() => {
+    musicStarted = true;
+    musicToggle.classList.add("playing");
+  }).catch(() => {
+    // Autoplay was blocked — she'll need to tap the music button manually
+  });
+}
+
+document.querySelector("#startJourney").addEventListener("click", () => {
+  document.querySelector("#timeline").scrollIntoView({ behavior: "smooth" });
+  startMusic();
+});
+
+musicToggle.addEventListener("click", () => {
+  if (bgMusic.paused) {
+    bgMusic.play();
+    musicToggle.classList.add("playing");
+  } else {
+    bgMusic.pause();
+    musicToggle.classList.remove("playing");
+  }
+});
 
 memories.forEach((memory) => {
   const button = document.createElement("button");

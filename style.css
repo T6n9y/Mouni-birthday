@@ -186,3 +186,28 @@ em { color: var(--gold); }
     margin-left: 2.3rem; transform: none; width: calc(100vw - 4.5rem);
   }
 }
+
+.music-btn {
+  position: fixed;
+  top: 1.2rem;
+  right: 1.2rem;
+  z-index: 50;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.music-btn:hover {
+  transform: scale(1.08);
+}
+
+.music-btn.playing {
+  color: var(--gold);
+}
