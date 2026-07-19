@@ -9,6 +9,11 @@ const text = document.querySelector("#memoryText");
 const secretText = document.querySelector("#secretText");
 const bgMusic = document.querySelector("#bgMusic");
 const musicToggle = document.querySelector("#musicToggle");
+const galleryGrid = document.querySelector("#galleryGrid");
+const lightbox = document.querySelector("#galleryLightbox");
+const lightboxImage = document.querySelector("#lightboxImage");
+const lightboxCaption = document.querySelector("#lightboxCaption");
+
 let musicStarted = false;
 function startMusic() {
   if (musicStarted) return;
@@ -147,4 +152,31 @@ gsap.utils.toArray(".year-node").forEach((node) => {
 gsap.from(".finale > *", {
   scrollTrigger: { trigger: ".finale", start: "top 70%" },
   y: 28, opacity: 0, stagger: 0.13, duration: 0.75, ease: "power3.out"
+});
+
+gsap.utils.toArray(".gallery-item").forEach((item, i) => {
+  gsap.from(item, {
+    scrollTrigger: { trigger: item, start: "top 92%" },
+    opacity: 0,
+    y: 20,
+    duration: 0.5,
+    delay: (i % 6) * 0.05,
+    ease: "power2.out"
+  });
+});
+
+
+bestieGallery.forEach((photo) => {
+  const item = document.createElement("div");
+  item.className = "gallery-item";
+  item.innerHTML = `
+    <img src="${photo.src}" alt="${photo.caption}" loading="lazy" />
+    <span class="gallery-caption">${photo.caption}</span>
+  `;
+  item.addEventListener("click", () => {
+    lightboxImage.src = photo.src;
+    lightboxCaption.textContent = photo.caption;
+    lightbox.showModal();
+  });
+  galleryGrid.appendChild(item);
 });
