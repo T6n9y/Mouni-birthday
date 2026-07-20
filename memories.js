@@ -121,7 +121,7 @@ const memories = [
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-26.jpg" // or "assets/videos/age-26.mp4"
   },
-  {
+  /*{
     age: 27,
     title: "Chapter 27",
     preview: "NATTU NATTU NATTU",
@@ -129,7 +129,7 @@ const memories = [
     secret: "Okay those are really good dance moves because i am not a great dancer",
     mediaType: "video", // change to "image" or "video" once you add a file
     mediaSrc: "assets/videos/age-27.mp4" // or "assets/videos/age-27.mp4"
-  },
+  },*/
   {
     age: 28,
     title: "Chapter 28",
