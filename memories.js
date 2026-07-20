@@ -30,15 +30,7 @@ const memories = [
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-03.jpg" // or "assets/videos/age-03.mp4"
   },
-  {
-    age: 4,
-    title: "Chapter 4",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-04.jpg" // or "assets/videos/age-04.mp4"
-  },
+  
   {
     age: 5,
     title: "Chapter 5",
@@ -47,15 +39,6 @@ const memories = [
     secret: "Yeah i dont think i will stop calling her Bujjama",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-05.jpg" // or "assets/videos/age-05.mp4"
-  },
-  {
-    age: 6,
-    title: "Chapter 6",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-06.jpg" // or "assets/videos/age-06.mp4"
   },
   {
     age: 7,
@@ -94,87 +77,6 @@ const memories = [
     mediaSrc: "assets/photos/age-10.jpg" // or "assets/videos/age-10.mp4"
   },
   {
-    age: 11,
-    title: "Chapter 11",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-11.jpg" // or "assets/videos/age-11.mp4"
-  },
-  {
-    age: 12,
-    title: "Chapter 12",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-12.jpg" // or "assets/videos/age-12.mp4"
-  },
-  {
-    age: 13,
-    title: "Chapter 13",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-13.jpg" // or "assets/videos/age-13.mp4"
-  },
-  {
-    age: 14,
-    title: "Chapter 14",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-14.jpg" // or "assets/videos/age-14.mp4"
-  },
-  {
-    age: 15,
-    title: "Chapter 15",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-15.jpg" // or "assets/videos/age-15.mp4"
-  },
-  {
-    age: 16,
-    title: "Chapter 16",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-16.jpg" // or "assets/videos/age-16.mp4"
-  },
-  {
-    age: 17,
-    title: "Chapter 17",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-17.jpg" // or "assets/videos/age-17.mp4"
-  },
-  {
-    age: 18,
-    title: "Chapter 18",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-18.jpg" // or "assets/videos/age-18.mp4"
-  },
-  {
-    age: 19,
-    title: "Chapter 19",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-19.jpg" // or "assets/videos/age-19.mp4"
-  },
-  {
     age: 20,
     title: "Chapter 20",
     preview: "A tiny piece of your story",
@@ -182,24 +84,6 @@ const memories = [
     secret: "TBH i like that pose with the bottle you could have been a model!",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-20.jpg" // or "assets/videos/age-20.mp4"
-  },
-  {
-    age: 21,
-    title: "Chapter 21",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-21.jpg" // or "assets/videos/age-21.mp4"
-  },
-  {
-    age: 22,
-    title: "Chapter 22",
-    preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
-    mediaType: "image", // change to "image" or "video" once you add a file
-    mediaSrc: "assets/photos/age-22.jpg" // or "assets/videos/age-22.mp4"
   },
   {
     age: 23,

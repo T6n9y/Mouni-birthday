@@ -154,6 +154,14 @@ gsap.from(".finale > *", {
   y: 28, opacity: 0, stagger: 0.13, duration: 0.75, ease: "power3.out"
 });
 
+gsap.from(".wish-card", {
+  scrollTrigger: { trigger: ".wish-card", start: "top 85%" },
+  opacity: 0,
+  y: 25,
+  duration: 0.6,
+  ease: "power3.out"
+});
+
 gsap.utils.toArray(".gallery-item").forEach((item, i) => {
   gsap.from(item, {
     scrollTrigger: { trigger: item, start: "top 92%" },

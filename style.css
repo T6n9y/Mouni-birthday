@@ -344,3 +344,32 @@ em { color: var(--gold); }
   font-family: "Playfair Display", serif;
   font-size: 1.05rem;
 }
+
+.wish-section {
+  padding: 6rem 1.5rem;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wish-card {
+  border: 1px solid var(--border);
+  border-radius: 1.4rem;
+  padding: 1.2rem;
+  background: var(--glass);
+  backdrop-filter: blur(16px);
+}
+
+.wish-video {
+  width: 100%;
+  max-height: 480px;
+  border-radius: 1rem;
+  display: block;
+  background: #000;
+}
+
+.wish-caption {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 0.9rem;
+}
