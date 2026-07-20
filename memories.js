@@ -98,8 +98,8 @@ const memories = [
     age: 24,
     title: "Chapter 24",
     preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    text: "",
+    secret: "",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-24.jpg" // or "assets/videos/age-24.mp4"
   },
@@ -107,8 +107,8 @@ const memories = [
     age: 25,
     title: "Chapter 25",
     preview: "A tiny piece of your story",
-    text: "Replace this with a personal note, a funny detail, or something you love about her.",
-    secret: "Replace this with an inside joke, a hidden compliment, or a future promise.",
+    text: ".",
+    secret: "",
     mediaType: "image", // change to "image" or "video" once you add a file
     mediaSrc: "assets/photos/age-25.jpg" // or "assets/videos/age-25.mp4"
   },
